@@ -1,4 +1,4 @@
-import { readJsonSync } from "https://deno.land/std/fs/read_json.ts";
+import { readJsonSync } from "https://deno.land/std/fs@0.65/read_json.ts";
 import { importsType } from "./types/importType.ts";
 import { dependencyType } from "./types/dependencyType.ts";
 import { addLatestVersions } from './version.ts'
